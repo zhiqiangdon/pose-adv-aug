@@ -50,7 +50,7 @@ Pretrain the agent:
 ```
 python pretrain-s-r-agent.py --gpu_id 0 --exp_id stack-2-hgs --load_prefix_pose lr-0.00025-10.pth.tar --bs 24
 ```
-### 3. Jointly train the pose network and agent
+### 3. Jointly Train the Pose Network and Agent
 
 ```
 python joint-train-pose-s-r-agent.py --gpu_id 0 --exp_id stack-2-hgs --load_prefix_pose lr-0.00025-10.pth.tar --load_prefix_sr lr-0.00025-1.pth.tar --vis_env stack-2-hgs-joint --is_train true --bs 24 
