@@ -1,6 +1,6 @@
 # Jointly Optimize Data Augmentation and Network Training: Adversarial Data Augmentation in Human Pose Estimation
 
-Training and testing code for the paper 
+Training code for the paper 
 **[Jointly Optimize Data Augmentation and Network Training: Adversarial Data Augmentation in Human Pose Estimation](https://arxiv.org/pdf/1805.09707.pdf)**, CVPR 2018
 
 ## Overview
