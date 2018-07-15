@@ -1,10 +1,12 @@
 # Jointly Optimize Data Augmentation and Network Training: Adversarial Data Augmentation in Human Pose Estimation
 
-Training and testing code for the paper 
+Training code for the paper 
 **[Jointly Optimize Data Augmentation and Network Training: Adversarial Data Augmentation in Human Pose Estimation](https://arxiv.org/pdf/1805.09707.pdf)**, CVPR 2018
 
 ## Overview
-Traditional random augmentation has two limitations. It doesn't consider the individual difference of training samples when doing augmentation. And it is also independent of the training status of the target network. To tackle these problems, we design an agent to learn how to do data augmentation. We model the training process as an adversarial learning problem. The agent (generator), conditioning on the individual samples and network status, tries to generate ''hard'' augmentations for the target network. The target network, on the other hand, tries to learn better from the augmentations.
+Traditional random augmentation has two limitations. It doesn't consider the individual difference of training samples when doing augmentation. And it is also independent of the training status of the target network. To tackle these problems, we design an agent to learn more effective data augmentation. 
+<p align="center"><img src="figures/fig2.pdf" alt="Adversarial Data Augmentation in Human Pose Estimation" width="600"></p>
+We model the training process as an adversarial learning problem. The agent (generator), conditioning on the individual samples and network status, tries to generate ''hard'' augmentations for the target network. The target network (discriminator), on the other hand, tries to learn better from the augmentations.
 
 
 ### Prerequisites
