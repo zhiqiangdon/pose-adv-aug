@@ -5,7 +5,7 @@ Training code for the paper
 
 ## Overview
 Traditional random augmentation has two limitations. It doesn't consider the individual difference of training samples when doing augmentation. And it is also independent of the training status of the target network. To tackle these problems, we design an agent to learn more effective data augmentation. 
-<p align="center"><img src="figures/fig2.pdf" alt="Adversarial Data Augmentation in Human Pose Estimation" width="600"></p>
+<p align="center"><img src="figures/overview.jpg" alt="Adversarial Data Augmentation in Human Pose Estimation" width="600"></p>
 We model the training process as an adversarial learning problem. The agent (generator), conditioning on the individual samples and network status, tries to generate ''hard'' augmentations for the target network. The target network (discriminator), on the other hand, tries to learn better from the augmentations.
 
 
